@@ -1,0 +1,78 @@
+{
+    "profiles":[
+        {
+           "basics":{
+                "name":"SRIVALLI",
+                "email":"vakkasrivalli@gmail.com",
+                "phone":"9642484389"
+            },
+            "education":[
+                { 
+                    "Degree":"S.S.C",
+                    "Percentage":"95",
+                    "Institute":"nagarjuna"
+
+                },
+                {
+                    
+                    "Degree":"Inter",
+                    "course":"MPC",
+                    "Percentage":"95",
+                    "Institute":"narayana"
+                },
+                {
+                    "Degree":"B.Tech",
+                    "branch":"CSE",
+                    "Percentage":"85",
+                    "Institute":"VVIT"
+
+                }
+            ],
+        
+            "skills":[
+                {
+                "type":"programming languages",
+                "values":["c","c++","java","python"]
+                },
+            {
+                "type":"web technologies",
+                "values":["React Js"]
+            },
+            {
+            "type":"Operating system",
+                "values":["windows","linux"]
+
+            }
+        ]
+        },
+        {
+        "basics":{
+            "name":"NAVYA SREE",
+            "email":"navyasreetiruveedhula@gmail.com",
+            "phone":"9876543210"
+        },
+        "education":[
+            {
+                "Degree":"S.S.C",
+                "Percentage":"99",
+                "Institute":"xyz"
+
+            },{
+                
+                "Degree":"Inter",
+                "course":"MPC",
+                "Percentage":"96",
+                "Institute":"narayana"
+                 },
+                 {
+                "course":"B.Tech",
+                "branch":"ECE",
+                "Percentage":"85",
+                "Institute":"VVIT"
+                 }
+        ]
+        
+    }
+        
+    ]
+}

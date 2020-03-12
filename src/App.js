@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
+import React  from 'react';
+import Profile from './Profile';
 import './App.css';
+import data from './data.json';
+import Resume from './Resume.js';
+import {BrowserRouter,Route,Link} from 'react-router-dom';
+let App=()=>{
+  return(
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+     <Route exact path="/" component={Profile}></Route> 
+     <Route exact path="/Resume" component={Resume}></Route>
+   
+    </BrowserRouter>
+  )
 }
-
 export default App;
